@@ -249,10 +249,7 @@ export class SketchComponent extends React.Component<ISketchComponentProps, ISke
     private renderVolumeButton() {
         const { volumeEnabled } = this.state;
         return (
-            <></>
-            // <button className="user-volume" onClick={this.handleVolumeButtonClick}>
-            //     { volumeEnabled ? <FaVolumeUp /> : <FaVolumeOff /> }
-            // </button>
+            <FaVolumeUp />
         );
     }
 
