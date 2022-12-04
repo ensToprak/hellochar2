@@ -21,7 +21,7 @@ export class FullPageSketch extends React.Component<ISketchRouteProps, {}> {
         const classes = classnames("full-page-sketch", { "presentation-mode": isPresentationMode, "kiosk-mode": isKiosk });
         return (
             <div className={classes} ref={this.handleDivRef}>
-                { !isKiosk ? <Link className="back-button" to="/">&#10094;</Link> : null }
+                {/* { !isKiosk ? <Link className="back-button" to="/">&#10094;</Link> : null } */}
                 {/* <ShrinkingHeader
                     alwaysShrunken
                     darkTheme={this.props.sketch.darkTheme}
